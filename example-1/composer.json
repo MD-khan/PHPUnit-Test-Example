@@ -1,0 +1,20 @@
+{
+    "name": "mdkhan/example-1",
+    "authors": [
+        {
+            "name": "Md Khan",
+            "email": "md.monir.khan707@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    }
+}
